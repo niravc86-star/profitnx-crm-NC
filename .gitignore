@@ -1,0 +1,21 @@
+# Build artifacts
+bin/
+obj/
+*.user
+
+# Sensitive credentials - DO NOT COMMIT
+google-service-account.json
+appsettings.json
+appsettings.*.json
+!appsettings.Example.json
+
+# App data (runtime generated)
+App_Data/*.json
+
+# IDE
+.vs/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
